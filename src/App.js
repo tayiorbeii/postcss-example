@@ -7,8 +7,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header mr5 pt5">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <div className='absolute br-pill flex justify-center items-center eh-input-status-icon green'>
+            <i className='fa fa-check-circle' />
+          </div>
         </div>
         <p className="App-intro red">
           To get started, edit <code>src/App.js</code> and save to reload.
